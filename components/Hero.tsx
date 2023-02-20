@@ -9,8 +9,9 @@ const Hero = () => {
       <Navbar />
       <div className={styles.container}>
         <article className={styles.article}>
-          <h1>Grzegorz Banaszak Junior Web Developer</h1>
-          <h2>Javascript - Typescript - NodeJs - React</h2>
+          <h1>Grzegorz Banaszak </h1>
+          <h2>Junior Web Developer</h2>
+          <h3>Javascript - Typescript - NodeJs - React</h3>
           <p>
             Building powerful and dynamic web applications to bring your ideas
             to life.
