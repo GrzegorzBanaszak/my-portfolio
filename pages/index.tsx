@@ -1,14 +1,23 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import { Project, projectsList } from "@/data/projecsData";
+import { GetStaticProps, NextPage } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+interface HomeProps {
+  projects: Array<Project>;
+}
+
+export const getStaticProps: GetStaticProps<HomeProps> = async () => {
+  return { props: { projects: projectsList } };
+};
+
+const Home: NextPage<HomeProps> = ({ projects }) => {
   return (
     <>
       <Head>
@@ -22,7 +31,9 @@ export default function Home() {
       </Head>
       <Hero />
       <Skills />
-      <Projects />
+      <Projects projects={projects} />
     </>
   );
-}
+};
+
+export default Home;

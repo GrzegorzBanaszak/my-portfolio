@@ -1,19 +1,52 @@
 .container {
   width: 300px;
   height: 400px;
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-  display: inline-flex;
-  margin: 0 1rem;
-  animation: swipe 10s linear infinite backwards;
+  color: #4f50ae;
+  border-radius: 20px;
+  border: 1px solid #4f50ae;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
 }
-@keyframes swipe {
-  0% {
-    transform: translate(0);
-  }
 
-  100% {
-    transform: translate(-100%);
-  }
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+}
+
+.container svg {
+  width: 24px;
+}
+
+.list {
+  list-style-type: none;
+  margin: 1.2rem 0;
+  gap: 0.7rem;
+  display: flex;
+  flex-wrap: wrap;
+  fill: #4f50ae;
+}
+
+.links {
+  margin-top: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  background-color: #4f50ae;
+  color: black;
+  width: 50%;
+  padding: 0.7rem 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 25px;
 }

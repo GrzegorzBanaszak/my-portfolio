@@ -1,16 +1,13 @@
 .section {
   background-color: #000000;
-  padding-top: 10rem;
+  padding: 10rem 0;
   color: white;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  overflow-x: scroll;
-  white-space: nowrap;
-}
-
-.container::-webkit-scrollbar {
-  display: none;
+  display: flex;
+  gap: 2rem 5rem;
+  flex-wrap: wrap;
 }

@@ -54,5 +54,6 @@
   font-weight: 700;
   border-radius: 10px;
   text-transform: uppercase;
+  text-decoration: none;
   cursor: pointer;
 }

@@ -16,7 +16,13 @@ const Hero = () => {
             Building powerful and dynamic web applications to bring your ideas
             to life.
           </p>
-          <button className={styles.button}>View more</button>
+          <a
+            className={styles.button}
+            href="https://www.linkedin.com/in/grzegorz-banaszak/"
+            target="_blank"
+          >
+            More about me
+          </a>
         </article>
         <div>
           <Image
