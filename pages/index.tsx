@@ -6,6 +6,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import { Project, projectsList } from "@/data/projecsData";
 import { GetStaticProps, NextPage } from "next";
+import Contact from "@/components/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +33,7 @@ const Home: NextPage<HomeProps> = ({ projects }) => {
       <Hero />
       <Skills />
       <Projects projects={projects} />
+      <Contact />
     </>
   );
 };

@@ -1,0 +1,59 @@
+.section {
+  background-color: white;
+  padding: 3rem 0;
+  position: relative;
+}
+.curve {
+  aspect-ratio: 960/560;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-position: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/peaks.svg");
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-top: 400px;
+}
+
+.title {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.content {
+  display: flex;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  text-transform: uppercase;
+  gap: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.link {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 15px;
+  margin-top: 1rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+.header {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid black;
+  padding: 0.7rem;
+}
