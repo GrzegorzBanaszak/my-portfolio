@@ -1,0 +1,6 @@
+User-agent: nameOfBot
+Disallow: /admin/
+
+User-agent: *
+Allow: /
+
