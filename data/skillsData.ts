@@ -15,47 +15,47 @@ export const skillsData: Array<SectionType> = [
       {
         name: "html",
         description:
-          "HTML był językiem który nie sprawił mi wiele trudności w nauca z racji tego że jest to język opisowy i w przeciwiećstwie do XML jast wardzo intuicyjny.Jedyną rzeczą nad którą nadal pracuje jest budowanie stron tak aby uzyskiwały one wysoki wskaźnik SEO",
+          "HTML was a language that did not give me much difficulty in learning because it is a descriptive language and unlike XML, it is more intuitive. The only thing I am still working on is building websites to achieve a high SEO score",
       },
       {
         name: "css",
         description:
-          "Wiekszość swojego czasu podczas budowy strony spędam włąśni z CSS.To on sprawia że strona internetowa nabiera unikalnego wyglądu i staje się bardziej żywa.",
+          "I spend most of my time during website development working with CSS. It's what gives the website a unique look and makes it more dynamic.",
       },
       {
         name: "sass",
         description:
-          "Język ten poznałem w trakcie kursy programisty React.Posiada wiele funkcji które sprawiają że pisanie kodu CSS staje się bardziej efektywne oraz pozwala uniknąć redundancji kodu.",
+          "I learned this language during a React developer course. It has many features that make writing CSS code more efficient and allow to avoid code redundancy.",
       },
       {
         name: "javascript",
         description:
-          "Na początku javascript był dla mnie językiem trudnym do zrozumienia gdzyż wcześniej miałem do czynienia z statycznimi i trudno było mi się przyzwiczaić do nowego podejścia.",
+          "At first, JavaScript was a difficult language for me to understand because I had previously worked with a statically-typed language and it was hard for me to get used to the new approach. However, over time I started getting used to the new approach and began to appreciate how many possibilities JavaScript offers me.",
       },
       {
         name: "typescript",
         description:
-          "Typescript jest językiem który bardzo lubię gdzyż wprowadza wiele usprawnień do Javascriptu i pozwala wychwycić błędy już na poziomie kodu.Jest to bardzo przydatan umiejętnoś zwłasza przy dużych projektach.W większości moich aplikacji korzystam właśnie z niego i mam zamiar poznawać go głębiej gdzyż wiem że mam jeszcze wiele do nauki.",
+          "I really like TypeScript because it introduces many improvements to JavaScript and allows to catch errors at the code level. This is a very useful skill, especially for large projects. I use it in most of my applications and I intend to learn it more deeply because I know I still have a lot to learn.",
       },
       {
         name: "react",
         description:
-          "React był pierwszym frameworkem w którym na poważnie zaczołem tworzyć aplikacje.Jego zaletą jest to że ma niski próg wejścia oraz daje swobode w tworzeniu aplikacji.",
+          "React was the first framework in which I seriously started creating applications. Its advantage is that it has a low entry threshold and gives freedom in the approach to creating applications.",
       },
       {
         name: "redux",
         description:
-          "Z reduxa zaczołem kożystać gdy poszukiwałem narzędzia które lepiej pozwoli mi zażądzać stanami aplikacji.Troche mi zajeło nauczenie się reduxa ale bardzo pomocnym był pakiet redux Redux Toolkit",
+          "I started using Redux when I was looking for a tool that would allow me to better manage application states. It took me a while to learn Redux, but the Redux Toolkit package was very helpful.",
       },
       {
         name: "vue",
         description:
-          "Vue jest to drugi framework który poznałem.Chciałem stworzyć aplikacje lecz spróbować z czymś innym niż React.Miałem do wyboru Angulara lub Vue, wybór padł na Vue i nie żałuje.Bardzo polubiłem go za prostotę zażadzania stanami aplikacji.",
+          "Vue is the second framework I learned. I wanted to create an application, but try something other than React. I had the choice between Angular or Vue, and I chose Vue, and I don't regret it. I really like Vue for its simplicity in managing application states.",
       },
       {
         name: "nextjs",
         description:
-          "NextJs w mojej opinii jest ulepszoną wersią Reacta.Najlepszymi ulepszeniami które posiada next wedłóg mnie są nestedPages, możliwość budowania API oraz SSR i SSG",
+          "In my opinion, Next.js is an improved version of React. The best improvements that Next.js has, in my opinion, are nested pages, the ability to build APIs, and SSR and SSG capabilities.",
       },
     ],
   },
@@ -65,22 +65,22 @@ export const skillsData: Array<SectionType> = [
       {
         name: "node",
         description:
-          "Za pomocą NodeJs głownie tworzyłem aplikacjie REST API. Korzystałem w wiekszości z Express, JWT oraz Cookies.",
+          "Using Node.js, I mainly created REST API applications. I mostly used Express, JWT, and Cookies.",
       },
       {
         name: "mysql",
         description:
-          "Poza MYSQL używałem także Sql server oba oparte na zapytaniach SQL.",
+          "Besides MYSQL, I also used SQL Server, both based on SQL queries.",
       },
       {
         name: "mongodb",
         description:
-          "Jedna Z najczęściej używanych przezemnie baz danych w moich projektach.Do komunikacji najczęściej używam Mongoose.",
+          "One of the most frequently used databases in my projects is MongoDB. I usually use Mongoose to communicate with it.",
       },
       {
         name: "c#",
         description:
-          "Pierwszy język programowania który poznałem.Używałem go do budowy REST API z ASP.NET , Unity i aplikacjach konsolowych.",
+          "The first programming language I learned was C#. I used it to build REST API with ASP.NET, Unity, and console applications.",
       },
     ],
   },
@@ -90,22 +90,22 @@ export const skillsData: Array<SectionType> = [
       {
         name: "git",
         description:
-          "Jedna z ważniejszych umiejętności który każdy programista powinien opanowć czyli GIT.System kontroli wersji GIT poznałem wraz z nauką C# lecz dopier z czasem zaczołem lepiej go poznawać i doceniać jego zalety.",
+          "One of the most important skills that every programmer should master is GIT. I learned the GIT version control system while learning C#, but only later did I start to better understand it and appreciate its advantages.",
       },
       {
         name: "docker",
         description:
-          "Gdy pierwszy raz spotkałem się z Dockerem nie potrafiłem znalez zastosowania do jego użycia.Jego zastosowanie zrozumiałem gdzy pracołałem nad aplikacją i potrzebowałem servera SQL i doker pozwalał na szybkie postawienie bez dużej konfiguracji.",
+          "When I first encountered Docker, I couldn't find a use for it. However, I understood its use when I worked on an application and needed a SQL server. Docker allowed me to quickly set it up without much configuration.",
       },
       {
         name: "vs code",
         description:
-          "Jest to główny edytor kodu z którego korzystam. Wcześniej kożystałem z Visual Studio przy pisanu w języku C# lecz gdy zaczołem pisać aplikacje w Javascript musiałem poszukać lepszego środowiska i Visual Studio Code okazał się idealny ze względu na swoja uniwersalność.",
+          "This is the main code editor that I use. Previously, I used Visual Studio for coding in C#, but when I started coding in JavaScript, I had to look for a better environment, and Visual Studio Code turned out to be perfect due to its versatility.",
       },
       {
         name: "figma",
         description:
-          "Z figmy zaczołem korzystać z potrzeby zwizualizowania strony przed rozpoczęciem pracy nad nią.Figma okazała się świetna z przyczyny łatwości w obsłudze i darmowości",
+          " I started using Figma because I needed to visualize a website before starting to work on it. Figma turned out to be great because of its ease of use and being free.",
       },
     ],
   },
