@@ -29,7 +29,7 @@ const Hero = () => {
             width={633}
             height={600}
             alt="Hero section monitor and phone"
-            src="/monitor.png"
+            src="https://res.cloudinary.com/dvnnx9h8e/image/upload/v1678625134/portfolio/monitor_qyqiqd.png"
           />
         </div>
       </div>

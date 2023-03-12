@@ -11,7 +11,7 @@ const Contact = () => {
         <div className={styles.content}>
           <Image
             alt="Contact image"
-            src="/letter.png"
+            src="https://res.cloudinary.com/dvnnx9h8e/image/upload/v1678625135/portfolio/letter_tbrh2w.png"
             width={500}
             height={500}
           />

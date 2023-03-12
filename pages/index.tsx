@@ -26,7 +26,7 @@ const Home: NextPage<HomeProps> = ({ projects, skills }) => {
         <title>Grzegorz Banaszak Portfolio</title>
         <meta
           name="description"
-          content="Portfolio website Grzegorz Banaszak"
+          content="Grzegorz Banaszak Portfolio - about me,skills and projects."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

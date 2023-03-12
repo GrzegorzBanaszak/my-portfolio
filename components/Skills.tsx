@@ -39,7 +39,7 @@ const Skills: React.FC<SkillsProps> = ({ data }) => {
         <div className={styles.skills}>
           <Image
             alt="List of skills"
-            src="/skills.png"
+            src="https://res.cloudinary.com/dvnnx9h8e/image/upload/v1678625135/portfolio/skills_ezupre.png"
             height={720}
             width={720}
           />
