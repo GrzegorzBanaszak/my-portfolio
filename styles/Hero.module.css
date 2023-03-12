@@ -57,3 +57,43 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+  .section {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 8rem;
+  }
+  .container {
+    height: auto;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+
+  .image img {
+    width: 300px;
+    height: 300px;
+  }
+  .article {
+    text-align: center;
+    padding: 0 1rem;
+  }
+  .article h1 {
+    font-size: 1.6rem;
+  }
+  .article h2 {
+    font-size: 1.2rem;
+  }
+  .article h3 {
+    font-size: 1rem;
+  }
+  .article p {
+    font-size: 1rem;
+  }
+
+  .button {
+    padding: 1rem 1rem;
+    color: white;
+    font-size: 1rem;
+  }
+}

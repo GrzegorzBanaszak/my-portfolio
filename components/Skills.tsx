@@ -1,10 +1,40 @@
+import { SectionType, SkillType } from "@/data/skillsData";
+import useIconColor from "@/hooks/useIconColor";
+import { motion } from "framer-motion";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import styles from "../styles/Skills.module.css";
+import CustomIcon from "./CustomIcon";
 
-const Skills = () => {
+type SkillsProps = {
+  data: Array<SectionType>;
+};
+
+const Skills: React.FC<SkillsProps> = ({ data }) => {
+  const [selectedSkill, setSelectedSkill] = useState<SkillType>(
+    data[0].data[0]
+  );
+  const [skillsList, setSkillsList] = useState<Array<SkillType>>(data[0].data);
+  const getColor = useIconColor();
+
+  const onIconClick = (iconType: string) => {
+    const selectedSkillData = skillsList.find((i) => i.name === iconType);
+
+    if (selectedSkillData) {
+      setSelectedSkill(selectedSkillData);
+    }
+  };
+
+  const onClickTypeSelect = (type: string) => {
+    const selectedType = data.find((i) => i.type === type);
+
+    if (selectedType) {
+      setSkillsList(selectedType.data);
+      setSelectedSkill(selectedType.data[0]);
+    }
+  };
   return (
-    <section className={styles.section}>
+    <section id="skills" className={styles.section}>
       <div className={styles.container}>
         <div className={styles.skills}>
           <Image
@@ -15,25 +45,36 @@ const Skills = () => {
           />
         </div>
         <article className={styles.content}>
-          <h3>Javascript</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Repellendus, dolore. Consequuntur ipsum repellendus, delectus
-            officiis, dignissimos hic repellat quidem blanditiis cupiditate
-            asperiores pariatur ipsam suscipit! Eveniet sint dignissimos dolor
-            ex!
-          </p>
+          <ul className={styles.list}>
+            {skillsList.map((item, index) => (
+              <motion.li
+                style={{
+                  fill:
+                    selectedSkill.name === item.name
+                      ? getColor(item.name)
+                      : "rgb(0,0,0)",
+                }}
+                onClick={() => onIconClick(item.name)}
+                key={index}
+                className={styles.element}
+              >
+                <CustomIcon type={item.name} />
+              </motion.li>
+            ))}
+          </ul>
+          <h3>{selectedSkill.name}</h3>
+          <p>{selectedSkill.description}</p>
 
           <div className={styles.selection}>
-            <div className={styles.select}>
-              <p className={styles.select__text}>Frondend Skills</p>
-            </div>
-            <div className={styles.select}>
-              <p className={styles.select__text}>Backend Skills</p>
-            </div>
-            <div className={styles.select}>
-              <p className={styles.select__text}>Other Skills</p>
-            </div>
+            {data.map((item, index) => (
+              <div
+                onClick={() => onClickTypeSelect(item.type)}
+                className={styles.select}
+                key={index}
+              >
+                <p className={styles.select__text}>{item.type}</p>
+              </div>
+            ))}
           </div>
         </article>
       </div>

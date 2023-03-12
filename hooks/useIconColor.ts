@@ -12,13 +12,16 @@ colorsMap.set("node", "rgb(51, 153, 51)");
 colorsMap.set("typescript", "rgb(49, 120, 198)");
 colorsMap.set("nextjs", "rgb(0, 0, 0)");
 colorsMap.set("vue", "rgb(79, 192, 141)");
-colorsMap.set("mongo", "rgb(71, 162, 72)");
-colorsMap.set("csharp", "rgb(35, 145, 32)");
+colorsMap.set("mongodb", "rgb(71, 162, 72)");
+colorsMap.set("c#", "rgb(35, 145, 32)");
 colorsMap.set("docker", "rgb(36, 150, 237)");
 colorsMap.set("mysql", "rgb(68, 121, 161)");
 colorsMap.set("nestjs", "rgb(224, 35, 78)");
 colorsMap.set("prisma", "rgb(45, 55, 72)");
 colorsMap.set("styled-components", "rgb(219, 112, 147)");
+colorsMap.set("vs code", "rgb(0, 122, 204)");
+colorsMap.set("figma", "rgb(242, 78, 30)");
+colorsMap.set("git", "rgb(240, 80, 50)");
 
 const useIconColor = () => {
   const getColor = (type: string): string => {

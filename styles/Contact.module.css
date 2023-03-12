@@ -57,3 +57,24 @@
   border-bottom: 2px solid black;
   padding: 0.7rem;
 }
+
+@media screen and (max-width: 900px) {
+  .section {
+    padding-top: 0.1rem;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .content img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  .list {
+    padding: 1rem;
+  }
+  .list p {
+    font-size: 1rem;
+  }
+}

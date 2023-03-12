@@ -9,7 +9,7 @@ type ProjectsProps = {
 
 const Projects: FC<ProjectsProps> = ({ projects }) => {
   return (
-    <section className={styles.section}>
+    <section id="projects" className={styles.section}>
       <div className={styles.container}>
         {projects.map((item, index) => (
           <Project key={index} project={item} />

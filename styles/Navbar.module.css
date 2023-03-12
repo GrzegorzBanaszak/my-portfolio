@@ -15,3 +15,22 @@
   font-weight: 500;
   cursor: pointer;
 }
+
+.container a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    /* flex-direction: column; */
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .container li {
+    padding: 0.5rem 0.2rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+}

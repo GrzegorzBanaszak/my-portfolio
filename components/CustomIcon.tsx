@@ -1,7 +1,9 @@
 import CsharpIcon from "@/icons/CsharpIcon";
 import CssIcon from "@/icons/CssIcon";
 import DockerIcon from "@/icons/DockerIcon";
+import FigmaIcon from "@/icons/FigmaIcon";
 import FramerIcon from "@/icons/FramerIcon";
+import GitIcon from "@/icons/GitIcon";
 import HtmlIcon from "@/icons/HtmlIcon";
 import Javascript from "@/icons/Javascript";
 import MongoIcon from "@/icons/MongoIcon";
@@ -16,6 +18,7 @@ import ReduxIcon from "@/icons/ReduxIcon";
 import SassIcon from "@/icons/SassIcon";
 import StyledComponentsIcon from "@/icons/StyledComponentsIcon";
 import TypescriptIcon from "@/icons/TypescriptIcon";
+import VsCodeIcon from "@/icons/VsCodeIcon";
 import VueIcon from "@/icons/VueIcon";
 import React, { FC } from "react";
 
@@ -47,9 +50,9 @@ const CustomIcon: FC<CustomIconProps> = ({ type }) => {
       return <TypescriptIcon />;
     case "vue":
       return <VueIcon />;
-    case "mongo":
+    case "mongodb":
       return <MongoIcon />;
-    case "csharp":
+    case "c#":
       return <CsharpIcon />;
     case "docker":
       return <DockerIcon />;
@@ -63,6 +66,12 @@ const CustomIcon: FC<CustomIconProps> = ({ type }) => {
       return <NextIcon />;
     case "styled-components":
       return <StyledComponentsIcon />;
+    case "vs code":
+      return <VsCodeIcon />;
+    case "figma":
+      return <FigmaIcon />;
+    case "git":
+      return <GitIcon />;
     default:
       return <Javascript />;
   }

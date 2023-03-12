@@ -11,3 +11,9 @@
   gap: 2rem 5rem;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 900px) {
+  .container {
+    justify-content: center;
+  }
+}

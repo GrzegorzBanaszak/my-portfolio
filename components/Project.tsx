@@ -17,6 +17,13 @@ const containerVariants = {
       duration: 0.4,
     },
   },
+  click: {
+    backgroundColor: "rgb(255, 255, 255)",
+    color: "rgb(0, 0, 0)",
+    transition: {
+      duration: 0.4,
+    },
+  },
 };
 
 const buttonVariant = {

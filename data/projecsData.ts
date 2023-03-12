@@ -20,7 +20,7 @@ export const projectsList: Array<Project> = [
       "react-router",
       "redux",
       "node",
-      "mongo",
+      "mongodb",
     ],
     repo: "https://github.com/GrzegorzBanaszak/restaurant",
   },
@@ -28,7 +28,7 @@ export const projectsList: Array<Project> = [
     title: "Order application",
     description:
       "This app help manage a orders from customers. Stores information about customers, suppliers, commodities and companies.",
-    skills: ["typescript", "nestjs", "mongo", "vue", "sass"],
+    skills: ["typescript", "nestjs", "mongodb", "vue", "sass"],
     repo: "https://github.com/GrzegorzBanaszak/order-app",
   },
   {
@@ -64,7 +64,7 @@ export const projectsList: Array<Project> = [
     skills: [
       "typescript",
       "node",
-      "mongo",
+      "mongodb",
       "html",
       "styled-components",
       "react",

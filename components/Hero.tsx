@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
-    <section className={styles.section}>
+    <section id="open" className={styles.section}>
       <Navbar />
       <div className={styles.container}>
         <article className={styles.article}>
@@ -24,7 +24,7 @@ const Hero = () => {
             More about me
           </a>
         </article>
-        <div>
+        <div className={styles.image}>
           <Image
             width={633}
             height={600}
